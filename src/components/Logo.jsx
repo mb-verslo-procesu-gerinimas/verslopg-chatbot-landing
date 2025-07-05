@@ -4,7 +4,7 @@ export function Logo({ className, ...props }) {
     // Changed text-lg to text-2xl
     <div className={`flex flex-row text-2xl ${className}`} {...props}>
       <span className="font-bold text-red-600">ERP</span>
-      <span className="font-medium">rompt</span>
+      <span className="font-medium">rompt.lt</span>
     </div>
   )
 }
