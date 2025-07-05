@@ -100,19 +100,14 @@ export function Header() {
             </div> */}
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            {/* <div className="hidden md:block">
+            <div className="hidden md:block">
               <NavLink href="https://app.erprompt.lt">Sign in</NavLink>
-            </div> */}
+            </div>
             {/* <Button href="https://app.erprompt.lt/" color="red">
               <span>
                 Get started <span className="hidden lg:inline">today</span>
               </span>
             </Button> */}
-            <Button href="https://app.erprompt.lt/" color="red">
-              <span>
-                Sign in
-              </span>
-            </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
