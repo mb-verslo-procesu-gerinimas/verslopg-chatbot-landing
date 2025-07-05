@@ -6,10 +6,10 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - ERPrompt',
-    default: 'Jūsų virtualus buhalteris - visada prisijungęs.',
+    default: 'ERPrompt - Jūsų virtualus buhalteris visada prisijungęs.',
   },
   description:
-    'Buhalterija neturi būti sudėtinga. Mes tai ištaisėme. Kalbėkitės su savo finansais.',
+    'Buhalterija neturi būti sudėtinga, mes tai ištaisėme - kalbėkitės su savo finansais.',
 }
 
 const inter = Inter({
