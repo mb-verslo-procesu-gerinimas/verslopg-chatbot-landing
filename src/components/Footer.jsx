@@ -40,7 +40,7 @@ export function Footer() {
             </Link>
           </div> */}
           <p className="text-center text-sm text-slate-500">
-            MB "Verslo procesų gerinimas". All rights reserved {new Date().getFullYear()}.
+            MB "Verslo procesų gerinimas", {new Date().getFullYear()}.
           </p>
         </div>
       </Container>
