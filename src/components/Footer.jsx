@@ -39,8 +39,8 @@ export function Footer() {
               </svg>
             </Link>
           </div> */}
-          <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            MB "Verslo procesų gerinimas". All rights reserved {new Date().getFullYear()}.
+          <p className="text-center text-sm text-slate-500">
+            Copyright &copy; {new Date().getFullYear()} MB "Verslo procesų gerinimas". All rights reserved.
           </p>
         </div>
       </Container>
