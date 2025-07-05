@@ -9,7 +9,7 @@ export const metadata = {
     default: 'ERPrompt.lt',
   },
   description:
-    'Buhalterija neturi būti sudėtinga, mes tai ištaisėme - kalbėkitės su savo finansais.',
+    '',
 }
 
 const inter = Inter({
