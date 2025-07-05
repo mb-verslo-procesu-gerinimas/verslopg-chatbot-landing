@@ -26,23 +26,30 @@ function MobileNavIcon({ open }) {
   return (
     <svg
       aria-hidden="true"
-      className="h-3.5 w-3.5 overflow-visible stroke-slate-700"
+      // The viewBox attribute is crucial for SVG scalability and predictability
+      viewBox="0 0 14 14"
       fill="none"
+      stroke="currentColor" // Using currentColor makes it easy to change the color via text color utilities
       strokeWidth={2}
       strokeLinecap="round"
+      // Combine passed className with default classes
+      className={clsx('h-3.5 w-3.5 stroke-slate-700', className)}
+      {...props} // Spread remaining props for flexibility (e.g., onClick, id)
     >
+      {/* Hamburger lines */}
       <path
         d="M0 1H14M0 7H14M0 13H14"
         className={clsx(
-          'origin-center transition',
-          open && 'scale-90 opacity-0',
+          transitionClasses,
+          open ? 'scale-90 opacity-0' : 'opacity-100',
         )}
       />
+      {/* 'X' (close) lines */}
       <path
         d="M2 2L12 12M12 2L2 12"
         className={clsx(
-          'origin-center transition',
-          !open && 'scale-90 opacity-0',
+          transitionClasses,
+          !open ? 'scale-90 opacity-0' : 'opacity-100',
         )}
       />
     </svg>
