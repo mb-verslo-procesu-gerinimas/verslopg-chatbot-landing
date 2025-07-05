@@ -5,11 +5,11 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    template: '%s - ERPrompt',
+    default: 'Jūsų virtualus buhalteris - visada prisijungęs.',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'Buhalterija neturi būti sudėtinga. Mes tai ištaisėme. Kalbėkitės su savo finansais.',
 }
 
 const inter = Inter({
