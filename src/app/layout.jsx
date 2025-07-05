@@ -6,7 +6,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - ERPrompt',
-    default: 'ERPrompt - Jūsų virtualus buhalteris visada prisijungęs.',
+    default: 'ERPrompt - Virtualus buhalteris kuris visada online.',
   },
   description:
     'Buhalterija neturi būti sudėtinga, mes tai ištaisėme - kalbėkitės su savo finansais.',
