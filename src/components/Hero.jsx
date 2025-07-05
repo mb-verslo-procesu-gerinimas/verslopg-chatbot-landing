@@ -11,8 +11,8 @@ import logoTuple from '@/images/logos/tuple.svg'
 
 export function Hero() {
   return (
-    <Container className="pt-10 pb-16 text-center lg:pt-24">
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+    <Container className="py-10 text-center lg:pt-24">
+      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
         Jūsų{' '}
         <span className="relative whitespace-nowrap text-red-600">
           <svg
