@@ -22,7 +22,8 @@ function MobileNavLink({ href, children }) {
   )
 }
 
-function MobileNavIcon({ open }) {
+function MobileNavIcon({ open, className, ...props }) {
+  const transitionClasses = 'origin-center transition duration-200'
   return (
     <svg
       aria-hidden="true"
