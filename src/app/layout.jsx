@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         lexend.variable,
       )}
     >
-      <body className="flex min-h-screen flex-col">{children}</body>
+      <body className="flex min-h-screen flex-col justify-between">{children}</body>
     </html>
   )
 }
