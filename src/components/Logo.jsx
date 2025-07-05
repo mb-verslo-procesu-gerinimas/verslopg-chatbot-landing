@@ -12,7 +12,7 @@ export function Logo({ className, ...props }) {
       {...props}
     >
       <span className={`${righteous.className}`}>ERP</span>
-      <span className="font-medium">rompt.lt</span>
+      <span className="font-medium text-white/80">rompt.lt</span>
     </div>
   )
 }
