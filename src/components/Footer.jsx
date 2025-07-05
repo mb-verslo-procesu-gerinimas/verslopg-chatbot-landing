@@ -18,7 +18,7 @@ export function Footer() {
             </div>
           </nav>
         </div> */}
-        <div className="flex flex-col items-center border-t border-slate-400/10 py-10">
+        <div className="flex flex-col items-center border-t border-slate-400/10 py-5">
           {/* <div className="flex gap-x-6">
             <Link href="#" className="group" aria-label="TaxPal on X">
               <svg
