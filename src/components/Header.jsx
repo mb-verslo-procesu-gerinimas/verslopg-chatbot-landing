@@ -101,7 +101,12 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block">
-              <NavLink href="https://app.erprompt.lt">Prisijungti</NavLink>
+              <NavLink
+                href="https://app.erprompt.lt"
+                className="transition-colors hover:text-red-600"
+              >
+                Prisijungti
+              </NavLink>
             </div>
             {/* <Button href="https://app.erprompt.lt/" color="red">
               <span>
