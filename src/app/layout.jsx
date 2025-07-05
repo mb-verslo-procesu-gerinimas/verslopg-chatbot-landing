@@ -6,7 +6,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - ERPrompt.lt',
-    default: 'ERPrompt.lt - virtualus buhalteris',
+    default: 'ERPrompt.lt',
   },
   description:
     'Buhalterija neturi būti sudėtinga, mes tai ištaisėme - kalbėkitės su savo finansais.',
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         lexend.variable,
       )}
     >
-      <body className="flex h-full flex-col">{children}</body>
+      <body className="flex min-h-screen flex-col">{children}</body>
     </html>
   )
 }

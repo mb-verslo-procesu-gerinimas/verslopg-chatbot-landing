@@ -25,11 +25,11 @@ export function Hero() {
           </svg>
           <span className="relative">virtualus buhalteris</span>
         </span>{' '}
-        kuris visada prisijungęs.
+        kuris visada online.
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
+      {/* <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         Buhalterija neturi būti sudėtinga, mes tai ištaisėme - kalbėkitės su savo finansais.
-      </p>
+      </p> */}
       {/* <div className="mt-10 flex justify-center gap-x-6">
         <Button href="/register">Get 6 months free</Button>
         <Button
