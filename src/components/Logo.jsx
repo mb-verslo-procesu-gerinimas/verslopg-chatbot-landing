@@ -11,9 +11,9 @@ export function Logo({ className, ...props }) {
       <div
         className={`${righteous.className} rounded-md bg-red-600 px-2 py-1 text-white`}
       >
-        ERPrompt.lt
+        ER
       </div>
-      {/* <span className="ml-2 font-medium">Prompt.lt</span> */}
+      <span className="ml-2 font-medium">Prompt.lt</span>
     </div>
   )
 }
