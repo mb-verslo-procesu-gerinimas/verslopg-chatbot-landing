@@ -9,11 +9,11 @@ export function Logo({ className, ...props }) {
   return (
     <div className={`flex items-center text-2xl ${className}`} {...props}>
       <div
-        className={`${righteous.className} rounded-l-md bg-red-600 pl-2 pr-0 py-1 text-white`}
+        className={`${righteous.className} rounded-x-md bg-red-600 px-2 py-1 text-white`}
       >
-        ERP
+        ER
       </div>
-      <span className="ml-0 font-medium">rompt.lt</span>
+      <span className="ml-2 font-medium">Prompt.lt</span>
     </div>
   )
 }
