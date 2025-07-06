@@ -77,7 +77,7 @@ function MobileNavigation() {
         {/* <MobileNavLink href="#features">Features</MobileNavLink>
         <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
         <MobileNavLink href="#pricing">Pricing</MobileNavLink> */}
-        <MobileNavLink href="https://app.erprompt.lt">Sign in</MobileNavLink>
+        <MobileNavLink href="https://app.erprompt.lt">Prisijungti</MobileNavLink>
       </PopoverPanel>
     </Popover>
   )
