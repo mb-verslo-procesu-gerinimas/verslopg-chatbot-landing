@@ -24,11 +24,11 @@ export function Hero() {
           </svg>
           <span className="relative">
             <span className="sm:hidden">
-              virtualus
+              Virtualus
               <br />
               asistentas
             </span>
-            <span className="hidden sm:inline">virtualus asistentas</span>
+            <span className="hidden sm:inline">Virtualus asistentas</span>
           </span>
         </span>{' '}
         jūsų verslo valdymo sistemoms
