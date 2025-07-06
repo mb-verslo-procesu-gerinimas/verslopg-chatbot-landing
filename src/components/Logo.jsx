@@ -7,12 +7,13 @@ const righteous = Righteous({
 
 export function Logo({ className, ...props }) {
   return (
-    <div
-      className={`flex items-baseline rounded-md bg-red-600 px-2 py-1 text-2xl text-white ${className}`}
-      {...props}
-    >
-      <span className={`${righteous.className}`}>ERP</span>
-      <span className="font-medium text-white/80">rompt.lt</span>
+    <div className={`flex items-center text-2xl ${className}`} {...props}>
+      <div
+        className={`${righteous.className} rounded-md bg-red-600 px-2 py-1 text-white`}
+      >
+        ER
+      </div>
+      <span className="ml-0 font-medium">Prompt</span>
     </div>
   )
 }
