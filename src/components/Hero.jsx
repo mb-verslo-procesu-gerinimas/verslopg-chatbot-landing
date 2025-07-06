@@ -13,7 +13,6 @@ export function Hero() {
   return (
     <Container className="py-10 text-center lg:pt-24">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-6xl">
-        Jūsų{' '}
         <span className="relative whitespace-nowrap text-red-600">
           <svg
             aria-hidden="true"
@@ -27,12 +26,12 @@ export function Hero() {
             <span className="sm:hidden">
               virtualus
               <br />
-              buhalteris
+              asistentas
             </span>
-            <span className="hidden sm:inline">virtualus buhalteris</span>
+            <span className="hidden sm:inline">virtualus asistentas</span>
           </span>
         </span>{' '}
-        kuris visada online.
+        jūsų verslo valdymo sistemoms
       </h1>
       {/* <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
         Buhalterija neturi būti sudėtinga, mes tai ištaisėme - kalbėkitės su savo finansais.
