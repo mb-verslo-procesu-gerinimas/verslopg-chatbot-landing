@@ -5,8 +5,8 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - erprompt',
-    default: 'erprompt',
+    template: '%s - erprompt.lt',
+    default: 'erprompt.lt',
   },
   description: '',
   icons: {
