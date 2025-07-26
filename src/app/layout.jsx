@@ -6,7 +6,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - erprompt.lt',
-    default: 'erprompt.lt',
+    default: 'Virtualus asistentas jūsų verslo valdymo sistemoms - erprompt.lt',
   },
   description: '',
   icons: {
