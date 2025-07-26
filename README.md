@@ -1,35 +1,82 @@
-# Salient
+# ERPrompt.lt
 
-Salient is a [Tailwind Plus](https://tailwindcss.com/plus) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+ERPrompt.lt is a Lithuanian virtual assistant chatbot landing page for business management systems. Built with Next.js 14, Tailwind CSS, and modern web technologies.
 
-## Getting started
+## Features
 
-To get started with this template, first install the npm dependencies:
+- 🤖 Virtual assistant for business management systems
+- 🌐 Lithuanian language support
+- 📱 Responsive design with Tailwind CSS
+- ⚡ Next.js 14 with App Router
+- 🎨 Modern UI components with Headless UI
+- 🚀 Optimized performance and SEO
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd verslopg-chatbot-landing
+```
+
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-Next, run the development server:
-
+3. Run the development server:
 ```bash
 npm run dev
 ```
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Customizing
+## Development
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+### Project Structure
+
+```
+src/
+├── app/                 # Next.js App Router pages
+│   ├── (auth)/         # Authentication pages
+│   ├── layout.jsx      # Root layout
+│   └── page.jsx        # Landing page
+├── components/         # Reusable React components
+├── images/            # Static assets
+└── styles/           # Tailwind CSS styles
+```
+
+## Technology Stack
+
+- **Framework**: Next.js 14
+- **Styling**: Tailwind CSS v4
+- **UI Components**: Headless UI
+- **Fonts**: Inter & Lexend (Google Fonts)
+- **Language**: JavaScript/JSX
+
+## Customization
+
+The landing page is built with modular components in `src/components/`. Key sections include:
+
+- `Hero.jsx` - Main hero section with Lithuanian text
+- `Header.jsx` - Navigation header
+- `Footer.jsx` - Site footer
+- Additional sections (currently commented out in main page)
 
 ## License
 
-This site template is a commercial product and is licensed under the [Tailwind Plus license](https://tailwindcss.com/plus/license).
-
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
+This project is based on the Salient template and is subject to the [Tailwind Plus license](https://tailwindcss.com/plus/license).
