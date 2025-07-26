@@ -5,11 +5,24 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - ERPrompt.lt',
-    default: 'ERPrompt.lt',
+    template: '%s - erprompt',
+    default: 'erprompt',
   },
-  description:
-    '',
+  description: '',
+  icons: {
+    icon: [
+      { url: '/src/images/favicon/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/src/images/favicon/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/src/images/favicon/favicon.ico', sizes: 'any' }
+    ],
+    apple: '/src/images/favicon/apple-touch-icon.png',
+    other: [
+      {
+        rel: 'manifest',
+        url: '/src/images/favicon/site.webmanifest',
+      },
+    ],
+  },
 }
 
 const inter = Inter({
