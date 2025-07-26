@@ -107,11 +107,10 @@ export function Header() {
                 Prisijungti
               </NavLink>
             </div>
-            {/* <Button href="https://app.erprompt.lt/" color="red">
+            <Button href="https://app.erprompt.lt/" color="red">
               <span>
-                Get started <span className="hidden lg:inline">today</span>
-              </span>
-            </Button> */}
+                Registruotis</span>
+            </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>
