@@ -1,19 +1,29 @@
-import { Righteous } from 'next/font/google'
+import Image from 'next/image'
+import { Roboto } from 'next/font/google'
+import iconSvg from '@/images/icon.svg'
 
-const righteous = Righteous({
+const textLeft = Roboto({
   subsets: ['latin'],
-  weight: '400',
+  weight: '700',
+  style: 'normal'
+})
+
+const textRight = Roboto({
+  subsets: ['latin'],
+  weight: '500',
+  style: 'normal'
 })
 
 export function Logo({ className, ...props }) {
   return (
-    <div className={`flex items-center text-2xl ${className}`} {...props}>
-      <div
-        className={`${righteous.className} rounded-md bg-red-600 px-2 py-1 text-white`}
+    <div className={`flex items-center text-3xl ${className}`} {...props}>
+      <Image src={iconSvg} alt="erprompt logo" className="mr-1 text-red-600" />
+      <span
+        className={`${textLeft.className} text-red-600`}
       >
-        ERPrompt.lt
-      </div>
-      {/* <span className="ml-2 font-medium">Prompt.lt</span> */}
+        erp
+      </span>
+      <span className={`${textRight.className}`}>rompt</span>
     </div>
   )
 }
