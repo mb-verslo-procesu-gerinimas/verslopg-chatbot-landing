@@ -16,7 +16,7 @@ const textRight = Roboto({
 
 export function Logo({ className, ...props }) {
   return (
-    <div className={`flex items-center text-3xl ${className}`} {...props}>
+    <div href="#" className={`flex items-center text-3xl select-none ${className}`} {...props}>
       <Image src={iconSvg} alt="erprompt logo" className="mr-1 text-red-600" />
       <span
         className={`${textLeft.className} text-red-600`}
